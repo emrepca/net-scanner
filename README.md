@@ -14,7 +14,7 @@ This is a simple network scanner script written in Python. It uses Scapy library
   
 
 
-	+ git clone https://github.com/your-username/network-scanner.gi
+	+ git clone https://github.com/your-username/network-scanner.git
 
 
 2. Change to the project directory:
