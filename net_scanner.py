@@ -44,7 +44,7 @@ for i in range(28):
 for result in answered_list:
     vendors = get_mac_vendors(result)
     print("\n")
-    print(f"Ip Address: {result[0].psrc} \t Mac Address: {result[0][1].hwsrc} \t MAC Address Vendors: {vendors}")
+    print(f"Ip Address: {result[1].psrc} \t Mac Address: {result[0][1].hwsrc} \t MAC Address Vendors: {vendors}")
 print("\n")
 for i in range(28):
     print("- ", end="")
